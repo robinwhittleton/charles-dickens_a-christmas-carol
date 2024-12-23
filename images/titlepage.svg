@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 340">
-	<title>The titlepage for the Standard Ebooks edition of A Christmas Carol, by Charles Dickens</title>
+	<title>The titlepage for the Standard Ebooks edition of Christmas Stories, by Charles Dickens</title>
 	<style type="text/css">
 		text{
 			font-family: "League Spartan";
@@ -16,6 +16,6 @@
 			font-size: 70.17543793px;
 		}
 	</style>
-	<text class="title" x="700" y="130">A CHRISTMAS CAROL</text>
+	<text class="title" x="700" y="130">CHRISTMAS STORIES</text>
 	<text class="author" x="700" y="290">CHARLES DICKENS</text>
 </svg>
