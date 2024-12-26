@@ -106,16 +106,62 @@
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
 		<item href="text/a-christmas-carol.xhtml" id="a-christmas-carol.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/a-christmas-tree.xhtml" id="a-christmas-tree.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/a-message-from-the-sea.xhtml" id="a-message-from-the-sea.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/doctor-marigold.xhtml" id="doctor-marigold.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/going-into-society.xhtml" id="going-into-society.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/mrs-lirripers-legacy.xhtml" id="mrs-lirripers-legacy.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/mrs-lirripers-lodgings.xhtml" id="mrs-lirripers-lodgings.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/nobodys-story.xhtml" id="nobodys-story.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/somebodys-luggage.xhtml" id="somebodys-luggage.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-battle-of-life.xhtml" id="the-battle-of-life.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-childs-story.xhtml" id="the-childs-story.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-chimes.xhtml" id="the-chimes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-cricket-on-the-hearth.xhtml" id="the-cricket-on-the-hearth.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-haunted-house.xhtml" id="the-haunted-house.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-haunted-man-and-the-ghosts-bargain.xhtml" id="the-haunted-man-and-the-ghosts-bargain.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-holly-tree.xhtml" id="the-holly-tree.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-lazy-tour-of-two-idle-apprentices.xhtml" id="the-lazy-tour-of-two-idle-apprentices.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-perils-of-certain-english-prisoners.xhtml" id="the-perils-of-certain-english-prisoners.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-poor-relations-story.xhtml" id="the-poor-relations-story.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-schoolboys-story.xhtml" id="the-schoolboys-story.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-seven-poor-travellers.xhtml" id="the-seven-poor-travellers.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-wreck-of-the-golden-mary.xhtml" id="the-wreck-of-the-golden-mary.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/tom-tiddlers-ground.xhtml" id="tom-tiddlers-ground.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/what-christmas-is-as-we-grow-older.xhtml" id="what-christmas-is-as-we-grow-older.xhtml" media-type="application/xhtml+xml"/>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
 		<itemref idref="a-christmas-carol.xhtml"/>
+		<itemref idref="the-chimes.xhtml"/>
+		<itemref idref="the-cricket-on-the-hearth.xhtml"/>
+		<itemref idref="the-battle-of-life.xhtml"/>
+		<itemref idref="the-haunted-man-and-the-ghosts-bargain.xhtml"/>
+		<itemref idref="a-christmas-tree.xhtml"/>
+		<itemref idref="what-christmas-is-as-we-grow-older.xhtml"/>
+		<itemref idref="the-poor-relations-story.xhtml"/>
+		<itemref idref="the-childs-story.xhtml"/>
+		<itemref idref="the-schoolboys-story.xhtml"/>
+		<itemref idref="nobodys-story.xhtml"/>
+		<itemref idref="the-seven-poor-travellers.xhtml"/>
+		<itemref idref="the-holly-tree.xhtml"/>
+		<itemref idref="the-wreck-of-the-golden-mary.xhtml"/>
+		<itemref idref="the-perils-of-certain-english-prisoners.xhtml"/>
+		<itemref idref="the-lazy-tour-of-two-idle-apprentices.xhtml"/>
+		<itemref idref="going-into-society.xhtml"/>
+		<itemref idref="the-haunted-house.xhtml"/>
+		<itemref idref="a-message-from-the-sea.xhtml"/>
+		<itemref idref="tom-tiddlers-ground.xhtml"/>
+		<itemref idref="somebodys-luggage.xhtml"/>
+		<itemref idref="mrs-lirripers-lodgings.xhtml"/>
+		<itemref idref="mrs-lirripers-legacy.xhtml"/>
+		<itemref idref="doctor-marigold.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
