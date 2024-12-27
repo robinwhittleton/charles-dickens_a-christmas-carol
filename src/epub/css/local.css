@@ -1,6 +1,53 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+@font-face{
+	font-family: "Standard Blackletter";
+	font-weight: 400;
+	src: url("../fonts/standard-blackletter.otf") format("opentype");
+}
+
+q{
+	font-style: italic;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+caption{
+	text-align: left;
+}
+
+th{
+	font-weight: normal;
+}
+
+td{
+	padding-left: .75em;
+}
+
+td:first-child{
+	padding-left: 0;
+}
+
+th + th + th,
+td + td + td{
+	text-align: right;
+}
+
+tbody > tr:last-child > td{
+	padding-bottom: .5em;
+}
+
+tfoot td{
+	padding-top: .5em;
+}
+
+tfoot td + td + td{
+	border-top: 1px solid;
+}
+
 [epub|type~="contributors"]{
 	font-style: italic;
 }
@@ -9,22 +56,62 @@
 	font-variant: small-caps;
 }
 
-[epub|type~="z3998:song"] p{
+[epub|type~="z3998:song"] p,
+[epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:song"] p > span{
+[epub|type~="z3998:song"] p > span,
+[epub|type~="z3998:verse"] p > span{
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
 }
 
-[epub|type~="z3998:song"] p > span + br{
+[epub|type~="z3998:song"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
 
 footer{
 	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-align: initial;
+	text-indent: 0;
+}
+
+#the-haunted-man-and-the-ghosts-bargain-3 > blockquote:last-child{
+	font-family: "Standard Blackletter", serif;
+	text-align: center;
+}
+
+#the-seven-poor-travellers-1 > blockquote{
+	text-align: center;
+}
+
+#the-seven-poor-travellers-1 > ol{
+	text-align: center;
+	list-style-type: none;
+	padding: 0;
+}
+
+#the-wreck-of-the-golden-mary-1 > hr + p{
+	text-align: center;
+	font-style: italic;
+	text-indent: 0;
+	margin-bottom: 1em;
+}
+
+#the-lazy-tour-of-two-idle-apprentices-2 > blockquote{
+	text-align: center;
+}
+
+#mrs-lirripers-lodgings-2 > p:last-child{
+	font-variant: small-caps;
 	text-align: right;
 }
