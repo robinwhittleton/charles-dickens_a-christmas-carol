@@ -13,10 +13,11 @@ q{
 
 table{
 	border-collapse: collapse;
+	font-variant-numeric: tabular-nums;
 }
 
 caption{
-	text-align: left;
+	text-align: initial;
 }
 
 th{
@@ -95,16 +96,16 @@ footer{
 }
 
 #the-seven-poor-travellers-1 > ol{
-	text-align: center;
 	list-style-type: none;
 	padding: 0;
+	text-align: center;
 }
 
 #the-wreck-of-the-golden-mary-1 > hr + p{
-	text-align: center;
 	font-style: italic;
-	text-indent: 0;
 	margin-bottom: 1em;
+	text-align: center;
+	text-indent: 0;
 }
 
 #the-lazy-tour-of-two-idle-apprentices-2 > blockquote{
