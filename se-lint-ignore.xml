@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="the-lazy-tour-of-two-idle-apprentices.xhtml">
+		<ignore>
+			<code>t-076</code>
+			<reason>Scots dialect is confusing the linter.</reason>
+		</ignore>
+	</file>
+	<file path="somebodys-luggage.xhtml">
+		<ignore>
+			<code>y-003</code>
+			<reason>Section correctly ends without punctuation.</reason>
+		</ignore>
+		<ignore>
+			<code>y-019</code>
+			<reason>Double-quotes used as ditto marks.</reason>
+		</ignore>
+	</file>
+	<file path="nobodys-story.xhtml">
+		<ignore>
+			<code>y-031</code>
+			<reason>Correct as per the scans.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
