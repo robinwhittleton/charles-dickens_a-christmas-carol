@@ -50,14 +50,62 @@
 		<meta property="authority" refines="#subject-7">LCSH</meta>
 		<meta property="term" refines="#subject-7">sh2008111381</meta>
 		<meta property="se:subject">Fiction</meta>
+		<meta property="se:subject">Shorts</meta>
 		<dc:description id="description">A miserly moneylender is visited by four ghosts who help him see how to honor Christmas in his heart all year round.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/charles-dickens"&gt;Charles Dickens&lt;/a&gt; wrote &lt;i&gt;A Christmas Carol&lt;/i&gt; in 1843 and the first edition, published on 19th December, was so successful that it sold out in just six days. The publishers had to produce two further editions between Christmas and the new year to meet the demand, and the novella has never been out of print.&lt;/p&gt;
 			&lt;p&gt;&lt;em&gt;A Christmas Carol&lt;/em&gt; tells the story of a greedy money-lender, Ebenezer Scrooge, who is first visited by the ghost of his former business partner and then by three spirits—the Ghost of Christmas Past, the Ghost of Christmas Present and the Ghost of Christmas Yet to Come. They show Scrooge’s lack of compassion to him, compelling him to act more compassionately in the future and to honor Christmas in his heart.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
+		<!-- A Christmas Carol -->
 		<dc:source>https://www.gutenberg.org/ebooks/24022</dc:source>
 		<dc:source>https://archive.org/details/christmascarol00dick2</dc:source>
+		<!-- The Chimes -->
+		<dc:source>https://www.gutenberg.org/ebooks/653</dc:source>
+		<dc:source>https://archive.org/details/goblinstorchimes00dickrich</dc:source>
+		<!-- The Cricket on the Hearth -->
+		<dc:source>https://www.gutenberg.org/ebooks/678</dc:source>
+		<dc:source>https://archive.org/details/cricketonhearth00dick_0</dc:source>
+		<!-- The Battle of Life -->
+		<dc:source>https://www.gutenberg.org/ebooks/676</dc:source>
+		<dc:source>https://archive.org/details/battleoflifelove00dickrich</dc:source>
+		<!-- The Haunted Man and the Ghost’s Bargain -->
+		<dc:source>https://www.gutenberg.org/ebooks/644</dc:source>
+		<dc:source>https://archive.org/details/hauntedmanghosts00dick</dc:source>
+		<!-- A Christmas Tree / What Christmas is as we Grow Older / The Poor Relation’s Story / The Child’s Story / The Schoolboy’s Story / Nobody’s Story -->
+		<dc:source>https://www.gutenberg.org/ebooks/1467</dc:source>
+		<dc:source>https://archive.org/details/christmasstories00dick</dc:source>
+		<!-- The Seven Poor Travelers -->
+		<dc:source>https://www.gutenberg.org/ebooks/1392</dc:source>
+		<dc:source>https://archive.org/details/christmasstories00dick</dc:source>
+		<!-- The Holly-Tree -->
+		<dc:source>https://www.gutenberg.org/ebooks/1394</dc:source>
+		<dc:source>https://archive.org/details/christmasstories00dick</dc:source>
+		<!-- The Wreck of the Golden Mary, cowritten Wilkie Collins -->
+		<dc:source>https://www.gutenberg.org/ebooks/1465</dc:source>
+		<dc:source>https://archive.org/details/christmasstories00dick</dc:source>
+		<!-- The Perils of Certain English Prisoners -->
+		<dc:source>https://www.gutenberg.org/ebooks/1406</dc:source>
+		<dc:source>https://archive.org/details/christmasstories00dickiala</dc:source>
+		<!-- The Lazy Tour of Two Idle Apprentices, cowritten Wilkie Collins -->
+		<dc:source>https://www.gutenberg.org/ebooks/888</dc:source>
+		<dc:source>https://archive.org/details/uncommercialtrav00dickrich</dc:source>
+		<!-- Going into Society, scans same as “The Perils of Certain English Prisoners” -->
+		<dc:source>https://www.gutenberg.org/ebooks/1422</dc:source>
+		<!-- The Haunted House, scans same as “The Perils of Certain English Prisoners” -->
+		<dc:source>https://www.gutenberg.org/ebooks/1289</dc:source>
+		<!-- A Message from the Sea, cowritten Wilkie Collins, scans same as “The Perils of Certain English Prisoners” -->
+		<dc:source>https://www.gutenberg.org/ebooks/1407</dc:source>
+		<!-- Tom Tiddler’s Ground, scans same as “The Perils of Certain English Prisoners” -->
+		<dc:source>https://www.gutenberg.org/ebooks/1413</dc:source>
+		<!-- Somebody’s Luggage, scans same as “The Perils of Certain English Prisoners” -->
+		<dc:source>https://www.gutenberg.org/ebooks/1414</dc:source>
+		<!-- Mrs. Lirriper’s Lodgings, scans same as “The Perils of Certain English Prisoners” -->
+		<dc:source>https://www.gutenberg.org/ebooks/1416</dc:source>
+		<!-- Mrs. Lirriper’s Legacy, scans same as “The Perils of Certain English Prisoners” -->
+		<dc:source>https://www.gutenberg.org/ebooks/1421</dc:source>
+		<!-- Doctor Marigold, scans same as “The Perils of Certain English Prisoners” -->
+		<dc:source>https://www.gutenberg.org/ebooks/1415</dc:source>
 		<meta property="se:word-count">29026</meta>
 		<meta property="se:reading-ease.flesch">80.01</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/A_Christmas_Carol</meta>
@@ -87,6 +135,10 @@
 		<dc:contributor id="transcriber-2">Janet Blenkinship</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Belnkinship, Janet</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">David Price</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Price, David</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://pgdp.net</meta>
@@ -104,6 +156,15 @@
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
 		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
+		<dc:contributor id="producer-3">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-3">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-3">https://www.robinwhittleton.com</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
